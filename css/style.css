@@ -20,31 +20,29 @@ h1  {
     padding: 1rem 0;
 }
 
-img {
-    width: 15%;
-    height: 15%;
-    margin-left: 6rem;
-    display: inline-block;
-    text-align: center;
-    margin-left: 9rem;
+#columns {
+    font-size: 0;
 }
-
-
-#animals {
-    color:grey;
-}
-
-#animals > .column {
+.column {
     font-size: 1rem;
     display: inline-block;
-    width: 33.33%;
-    padding: 1rem;
-    margin: -1rem;
+    width: 33.333%;
     text-align: center;
     vertical-align: top;
-
 }
 
-#animals .header {
+.column > img {
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.column h2 {
+    font-size: 200%;
     color: pink;
+}
+
+.column p {
+    font-size: 100%;
+    color: grey;
 }
